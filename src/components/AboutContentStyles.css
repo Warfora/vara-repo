@@ -32,10 +32,10 @@
 }
 
 .right .img{
-    max-width: 1000%;
+    max-width: 1300%;
     border: 1px solid #333;
     position: relative;
-    right: 36px;
+    right: 250px;
 }
 
 @media screen and (max-width: 640px){
@@ -76,14 +76,23 @@
     grid-column: 4 / -2;
     grid-row: 1;
     z-index: 5;
+    right: 30px;
+}
+@media screen and (max-width: 640px){
+    .right .bottom{
+        grid-column: 4 / -2;
+        grid-row: 1;
+        z-index: 5;
+        left: 30px;
+    }
 }
 
-    @media screen and (max-width: 640px){
-        .right .bottom{
-            grid-column: 4 / -2;
-            grid-row: 1;
-            z-index: 5;
-            position: relative;
-            left: 90px;
-        }
+@media screen and (max-width: 640px){
+    .right .bottom{
+        grid-column: 4 / -2;
+        grid-row: 1;
+        z-index: 5;
+        position: relative;
+        left: 70px;
     }
+}

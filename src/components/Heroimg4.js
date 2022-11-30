@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 class Heroimg3 extends Component {
     render(){
         return (
-            <div className="hero-img2">
+            <div className="hero-img3">
                 <div className="heading">
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.text}</p>
