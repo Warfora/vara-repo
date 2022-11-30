@@ -5,7 +5,7 @@
     position: relative;
 }
 
-@media screen and (min-width: 1301px){
+@media screen and (min-width: 1701px){
     .hero-img::before{
         content: "";
         background: url("https://64.media.tumblr.com/842eacef47c0b3a638045f781f75dd30/tumblr_nehe7cb39x1rr2r12o1_400.gifv");
